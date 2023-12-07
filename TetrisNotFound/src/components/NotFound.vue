@@ -23,7 +23,9 @@ onMounted(() => {
 	  context.value.strokeRect(x * scale, y * scale, scale, scale);
 	}
 
-    drawSquare(context.value,1,1,[0,255,0])
+    drawSquare(context,1,1,"red")
+    drawSquare(context,1,2,"red")
+    drawSquare(context,1,3,"red")
 })
 
 
